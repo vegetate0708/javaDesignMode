@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/src/AdapterPatternMode/Duck.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/AdapterPatternMode/MallardDuck.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/AdapterPatternMode/Turkey.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/AdapterPatternMode/适配器模式" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/CommandPatternMode/命令模式" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/DecoratorPatternMode/Beverage.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/DecoratorPatternMode/CondimentDecorator.java" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>
