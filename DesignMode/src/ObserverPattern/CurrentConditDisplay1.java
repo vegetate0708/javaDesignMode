@@ -4,6 +4,7 @@ import java.util.Observer;
 public class CurrentConditDisplay1 implements Observer{
 	private float temperature;
     private float humidity;
+    private float pre;
     private Observable weatherDate1;
         
 	public CurrentConditDisplay1(Observable obs) {
@@ -18,12 +19,13 @@ public class CurrentConditDisplay1 implements Observer{
 			WeatherDate1 weatherDate1=(WeatherDate1)o;
 			this.temperature=weatherDate1.getTemperature();
 			this.humidity=weatherDate1.getHumidity();
+			this.pre=weatherDate1.getPressure();
 			display();
 		}
 	}
 	
 	public void display() {
 		// TODO Auto-generated method stub
-		System.out.println("zhe shi Current"+temperature+humidity);
+		System.out.println("zhe shi java自带观察者"+temperature+":"+humidity+":"+pre);
 	}
 }

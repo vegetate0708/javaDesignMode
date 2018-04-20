@@ -4,6 +4,7 @@ public class CurrentConditDisplay implements Observer ,DIsplayElement {
 	
 	private float temperature;
     private float humidity;
+    private float pre;
     private WeatherDate weatherDate;
 	public CurrentConditDisplay(Subject weatherdate) {
 	      this.weatherDate=weatherDate;
@@ -13,7 +14,7 @@ public class CurrentConditDisplay implements Observer ,DIsplayElement {
 	@Override
 	public void display() {
 		// TODO Auto-generated method stub
-		System.out.println("zhe shi Current"+temperature+humidity);
+		System.out.println("zhe shi 手动实现观察者 "+temperature+":"+humidity+":"+pre);
 	}
 
 	@Override
@@ -21,6 +22,7 @@ public class CurrentConditDisplay implements Observer ,DIsplayElement {
 		// TODO Auto-generated method stub
 		this.humidity=humidity;
 		this.temperature=temp;
+		this.pre=pressure;
 		display();
 	}
 
