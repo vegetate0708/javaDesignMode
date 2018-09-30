@@ -1,5 +1,7 @@
 package AdapterPattern;
-
+/**
+ * 将Duck类拥有Turkey的功能
+ */
 public class TurkeyAdapter implements Duck{
     Turkey turkey;
 	public TurkeyAdapter(Turkey turkey) {
