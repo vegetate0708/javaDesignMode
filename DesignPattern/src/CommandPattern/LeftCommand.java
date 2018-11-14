@@ -2,6 +2,7 @@ package CommandPattern;
 
 /**
  * Created by lx on 2017/8/26.
+ * 具体命令执行者
  */
 public class LeftCommand implements Command {
     private Game receiver;

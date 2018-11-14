@@ -2,6 +2,7 @@ package CommandPattern;
 
 /**
  * Created by lx on 2017/8/26.
+ * Ö´ÐÐÕß½ÇÉ«
  */
 public class Game {
     public void toLeft(){

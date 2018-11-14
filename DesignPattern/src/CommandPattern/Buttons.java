@@ -2,6 +2,7 @@ package CommandPattern;
 
 /**
  * Created by lx on 2017/8/28.
+ * 请求者角色类
  */
 public class Buttons {
     private LeftCommand leftCommand;
