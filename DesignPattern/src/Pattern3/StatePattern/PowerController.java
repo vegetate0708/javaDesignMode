@@ -5,5 +5,6 @@ package Pattern3.StatePattern;
  */
 public interface PowerController {
     public void poweron();
+
     public void poweroff();
 }

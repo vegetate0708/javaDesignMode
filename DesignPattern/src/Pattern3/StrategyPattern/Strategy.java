@@ -7,6 +7,6 @@ package Pattern3.StrategyPattern;
  * @create 2018/11/9 15:11
  */
 
-public  interface Strategy {
+public interface Strategy {
     public void operate();
 }

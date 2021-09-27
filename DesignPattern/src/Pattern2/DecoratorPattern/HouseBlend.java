@@ -4,22 +4,22 @@ package Pattern2.DecoratorPattern;
  * ×ÛºÏÒûÁÏÀà
  */
 
-public class HouseBlend extends Beverage{
+public class HouseBlend extends Beverage {
 
-	public HouseBlend() {
-		description="House Blend Coffee";
-	}
+    public HouseBlend() {
+        description = "House Blend Coffee";
+    }
 
-	@Override
-	public double cost() {
-		// TODO Auto-generated method stub
-		return 0.89;
-	}
+    @Override
+    public double cost() {
+        // TODO Auto-generated method stub
+        return 0.89;
+    }
 
-	@Override
-	public int getSize() {
-		// TODO Auto-generated method stub
-		return size;
-	}
+    @Override
+    public int getSize() {
+        // TODO Auto-generated method stub
+        return size;
+    }
 
 }

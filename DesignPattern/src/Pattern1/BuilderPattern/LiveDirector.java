@@ -1,11 +1,11 @@
-package Pattren1.BuilderPattern;
+package Pattern1.BuilderPattern;
 
 /**
  * Created by lx on 2018/11/8.
  */
 
 public class LiveDirector {
-    public PersonLive generateLive(LiveBuilder liveBuilder){
+    public PersonLive generateLive(LiveBuilder liveBuilder) {
         liveBuilder.buildBaby();
         liveBuilder.buildChildren();
         liveBuilder.buildYouth();

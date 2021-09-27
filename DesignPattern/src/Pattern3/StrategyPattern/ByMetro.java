@@ -7,7 +7,7 @@ package Pattern3.StrategyPattern;
  * @create 2018/11/9 15:14
  */
 
-public class ByMetro implements Strategy{
+public class ByMetro implements Strategy {
 
     @Override
     public void operate() {

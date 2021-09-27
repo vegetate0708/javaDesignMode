@@ -1,4 +1,4 @@
-package Pattren1.SingletonPattern;
+package Pattern1.SingletonPattern;
 
 /**
  * Created by  on 2017/8/21.vegetate
@@ -8,7 +8,10 @@ public class Singleton4 {
     private static class LazyHolder {
         private static final Singleton4 INSTANCE = new Singleton4();
     }
-    private Singleton4 (){}
+
+    private Singleton4() {
+    }
+
     public static final Singleton4 getInstance() {
         return LazyHolder.INSTANCE;
     }

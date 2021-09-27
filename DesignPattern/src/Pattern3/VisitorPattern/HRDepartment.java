@@ -6,10 +6,10 @@ package Pattern3.VisitorPattern;
  * @author vegetate
  * @create 2018/11/15 11:24
  */
+
 /**
  * 具体访问者对象：公司人力资源部<br/>
  * 人力资源部的职责就是负责统计核算员工的每月上班时长
- *
  */
 public class HRDepartment extends Department {
 

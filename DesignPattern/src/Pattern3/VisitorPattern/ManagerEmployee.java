@@ -32,9 +32,10 @@ public class ManagerEmployee extends Employee {
 
     /**
      * 获取每月的上班实际时长 = 每天上班时长 * 每月上班天数 - 惩罚时长
+     *
      * @return
      */
-    public int getTotalTimeSheet(){
+    public int getTotalTimeSheet() {
         return timeSheet * 22 - punishmentTime;
     }
 
@@ -42,9 +43,10 @@ public class ManagerEmployee extends Employee {
     /**
      * 获取每月实际应发工资 = 每月固定工资 - 惩罚时长 * 5<br/>
      * <作为公司管理者 每迟到1小时 扣5块钱>
+     *
      * @return
      */
-    public double getTotalWage(){
+    public double getTotalWage() {
         return wage - punishmentTime * 5;
     }
 

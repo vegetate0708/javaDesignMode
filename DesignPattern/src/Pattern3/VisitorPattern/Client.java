@@ -6,6 +6,7 @@ package Pattern3.VisitorPattern;
  * @author vegetate
  * @create 2018/11/15 11:24
  */
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,7 +14,7 @@ public class Client {
 
     public static void main(String[] args) {
         List<Employee> employeeList = new ArrayList<Employee>();
-        Employee mep1,mep2,gep1,gep2,gep3;
+        Employee mep1, mep2, gep1, gep2, gep3;
         // 管理者1
         mep1 = new ManagerEmployee("王总", 8, 20000, 10);
         // 管理者2
@@ -33,7 +34,7 @@ public class Client {
 
         // 财务部 对公司员工的工资核算/访问
         FADepartment department = new FADepartment();
-        for(Employee employee : employeeList){
+        for (Employee employee : employeeList) {
             employee.accept(department);
         }
     }

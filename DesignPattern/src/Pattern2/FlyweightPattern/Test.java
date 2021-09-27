@@ -8,8 +8,8 @@ package Pattern2.FlyweightPattern;
  */
 public class Test {
     public static void main(String[] args) {
-        TicketFactory. getTicket("南京","杭州").showPrice("Gaotie");
-        TicketFactory. getTicket("南京","杭州").showPrice("Dongche");
+        TicketFactory.getTicket("南京", "杭州").showPrice("Gaotie");
+        TicketFactory.getTicket("南京", "杭州").showPrice("Dongche");
     }
 
 }

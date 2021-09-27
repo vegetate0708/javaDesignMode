@@ -5,6 +5,7 @@ import java.util.List;
 
 /**
  * 〈会员积分demo〉
+ *
  * @author vegetate
  * @create 2018/11/8
  */

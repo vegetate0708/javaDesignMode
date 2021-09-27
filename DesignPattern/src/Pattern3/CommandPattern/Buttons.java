@@ -21,14 +21,15 @@ public class Buttons {
         this.transformCommand = transformCommand;
     }
 
-    public void toLeft(){
+    public void toLeft() {
         leftCommand.excute();
     }
 
-    public void toRight(){
+    public void toRight() {
         rightCommand.excute();
     }
-    public void transform(){
+
+    public void transform() {
         transformCommand.excute();
     }
 

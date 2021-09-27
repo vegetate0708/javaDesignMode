@@ -6,7 +6,7 @@ package Pattern3.InterpreterPattern;
  * @author vegetate
  * @create 2018/11/15 15:30
  */
-public class Add implements Interpreter{
+public class Add implements Interpreter {
     @Override
     public int interpret(Context context) {
         //两数相加

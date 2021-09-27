@@ -1,4 +1,4 @@
-package Pattren1.BuilderPattern;
+package Pattern1.BuilderPattern;
 
 /**
  * Created by lx on 2018/11/8.
@@ -7,7 +7,7 @@ package Pattren1.BuilderPattern;
 public class OldSuccessBuilder implements LiveBuilder {
     private PersonLive personLive;
 
-    public OldSuccessBuilder(){
+    public OldSuccessBuilder() {
         personLive = new PersonLive();
     }
 

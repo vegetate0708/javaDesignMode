@@ -6,6 +6,7 @@ package Pattern2.FacadePattern;
 public interface Phone {
     //´òµç»°
     public void dail();
+
     //¹Ò¶Ï
     public void hangup();
 }

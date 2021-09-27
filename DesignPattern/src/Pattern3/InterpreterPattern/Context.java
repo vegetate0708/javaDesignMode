@@ -10,7 +10,7 @@ public class Context {
     private int num1;
     private int num2;
 
-    public Context(int num1,int num2){
+    public Context(int num1, int num2) {
         this.setNum1(num1);
         this.setNum2(num2);
     }

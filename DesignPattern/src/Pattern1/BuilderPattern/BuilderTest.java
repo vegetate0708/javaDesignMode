@@ -1,4 +1,4 @@
-package Pattren1.BuilderPattern;
+package Pattern1.BuilderPattern;
 
 /**
  * Created by lx on 2018/11/8.

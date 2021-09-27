@@ -30,6 +30,7 @@ public class GeneralEmployee extends Employee {
 
     /**
      * 获取每月的上班实际时长 = 每天上班时长 * 每月上班天数 - 惩罚时长
+     *
      * @return
      */
     public int getTotalTimeSheet() {

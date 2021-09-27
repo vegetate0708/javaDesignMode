@@ -9,7 +9,7 @@ package Pattern3.InterpreterPattern;
 public class InterpreterPatternTest {
     public static void main(String[] args) {
         //Íê³É100 - (1+1) ËãÊ½
-        int result = new Subtract().interpret(new Context(100,new Add().interpret(new Context(1,1))));
-        System.out.println("result = "+result);
+        int result = new Subtract().interpret(new Context(100, new Add().interpret(new Context(1, 1))));
+        System.out.println("result = " + result);
     }
 }

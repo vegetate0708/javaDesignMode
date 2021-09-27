@@ -8,14 +8,17 @@ package Pattern3.StrategyPattern;
  */
 public class Context {
     private Strategy strategy;
+
     //构造函数，要你使用哪种方式去上班
-    public Context(Strategy strategy){
+    public Context(Strategy strategy) {
         this.strategy = strategy;
     }
-    public void setStrategy(Strategy strategy){
+
+    public void setStrategy(Strategy strategy) {
         this.strategy = strategy;
     }
-    public void operate(){
+
+    public void operate() {
         this.strategy.operate();
     }
 
