@@ -13,12 +13,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pattern1/FactoryPattern/工厂模式">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2274">
+              <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Pattern1/BuilderPattern/建造者模式.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="251">
-                <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="810">
+                <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
               </first_editor>
               <second_editor />
             </state>
@@ -32,11 +41,6 @@
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pattern1/FactoryPattern/工厂模式">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -104,14 +108,14 @@
         <option value="$PROJECT_DIR$/src/Pattern2/ProxyPattern/代理模式" />
         <option value="$PROJECT_DIR$/src/Pattern2/FacadePattern/外观模式" />
         <option value="$PROJECT_DIR$/src/Pattern3/TempleteMethodPattern/TeaWithHook.java" />
-        <option value="$PROJECT_DIR$/src/Pattern1/BuilderPattern/建造者模式.md" />
         <option value="$PROJECT_DIR$/src/Pattern1/BuilderPattern/GiftedChildrenBuilder.java" />
+        <option value="$PROJECT_DIR$/src/Pattern1/BuilderPattern/建造者模式.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="47" />
-    <option name="y" value="161" />
+    <option name="x" value="46" />
+    <option name="y" value="160" />
     <option name="width" value="1940" />
     <option name="height" value="1030" />
   </component>
@@ -121,7 +125,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,13 +161,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1632906525197" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1632969448993" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -444,18 +448,19 @@
       <workItem from="1545014597368" duration="13000" />
       <workItem from="1632729272778" duration="1262000" />
       <workItem from="1632790247677" duration="2440000" />
-      <workItem from="1632876907228" duration="2224000" />
+      <workItem from="1632876907228" duration="4145000" />
+      <workItem from="1632965814758" duration="1944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85463000" />
+    <option name="totallyTimeSpent" value="89328000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25268096" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25603217" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -876,13 +881,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pattern1/FactoryPattern/工厂模式">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2274">
+          <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pattern1/BuilderPattern/建造者模式.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="251">
-            <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="810">
+            <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
           </first_editor>
           <second_editor />
         </state>
